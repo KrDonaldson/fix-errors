@@ -1,5 +1,5 @@
 /*Desired result the name or (argument) that is passed into the nameFilter 
- function when invoked will be filtered out.
+ function when invoked will be filtered out. !nameFilter(name)
  IE  nameFilter("Roger") would print
  ["John", "Betty"]
  */
@@ -16,7 +16,7 @@ var nameFilter = function(filteredName) {
     for (var i = 0; i < people.length; i++) {
         let currentName = people[i].name
         if (currentName !== filteredName) {
-            results.push(filteredName)
+            results.push(currentName)
         }
     }
     return results
