@@ -20,5 +20,6 @@ var selectName = function() {
     var currentName = "Betty";
     return currentName
 }
-var filteredNames = nameFilter(currentName)
+var filteredNames = nameFilter(selectName())
+//function composition call a funciton = return value of function 
 console.log(filteredNames)
