@@ -1,6 +1,6 @@
 var people = [ 
-        { name: "John", age: 55 }; 
-        { name: "Roger", age: 44 };
+        { name: "John", age: 55 }, 
+        { name: "Roger", age: 44 },
         { name: "Betty", age: 37 }
     ]
 
