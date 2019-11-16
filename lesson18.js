@@ -5,9 +5,12 @@ function myFunction() {
         objMethod: function() {
             console.log(objProperty);
         }
-    };
+    }
     myObject.objMethod();
 }
+
+objProperty="hello";
+
 myFunction();
 
 
