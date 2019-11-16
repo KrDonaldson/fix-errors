@@ -22,5 +22,5 @@ var nameFilter = function(filteredName) {
 }
 
 
-var filteredNames = nameFilter()
+var filteredNames = nameFilter("Betty")
 console.log(filteredNames)
